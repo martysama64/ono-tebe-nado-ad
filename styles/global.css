@@ -4,10 +4,21 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   width: 1100px;
   margin: 0 auto;
+  min-height: 100vh;
   font-family: Raleway, sans-serif;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1,
